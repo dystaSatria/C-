@@ -12,9 +12,11 @@ Bu program, basit bir açık artırma sistemini simüle eder. Kullanıcıdan bel
 - **Açık Artırmayı Sonlandırma:** Kullanıcı 0 değerini girdiğinde, açık artırma işlemi sona erer ve program kazananı ve toplam teklifi görüntüler.
 - **Kazananın Seçimi:** Program, en yüksek teklife dayanarak kazananı belirler.
 
+<br>
+
+
 ##  Tekniksel Açıklaması
 
-<br>
 
 ### Veri Yapısının Başlatılması
 
