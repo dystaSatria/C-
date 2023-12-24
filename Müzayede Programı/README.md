@@ -2,11 +2,11 @@
 
 <br>
 
-## Açıklama
+## Genel
 
 Bu program, basit bir açık artırma sistemini simüle eder. Kullanıcıdan belirli bir ürün için tekliflerini belirtmesi istenir ve bu tekliflerin miktarı girilir.
 
-## Özellikler
+### Özellikler
 
 - **Açık Artırmayı Başlatma:** Program, kullanıcının nominal tekliflerini girmesini isteyerek açık artırma işlemini başlatır.
 - **Açık Artırmayı Sonlandırma:** Kullanıcı 0 değerini girdiğinde, açık artırma işlemi sona erer ve program kazananı ve toplam teklifi görüntüler.
