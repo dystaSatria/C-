@@ -2,6 +2,16 @@
 
 <br>
 
+## Açıklama
+
+Bu program, basit bir açık artırma sistemini simüle eder. Kullanıcıdan belirli bir ürün için tekliflerini belirtmesi istenir ve bu tekliflerin miktarı girilir.
+
+## Özellikler
+
+- **Açık Artırmayı Başlatma:** Program, kullanıcının nominal tekliflerini girmesini isteyerek açık artırma işlemini başlatır.
+- **Açık Artırmayı Sonlandırma:** Kullanıcı 0 değerini girdiğinde, açık artırma işlemi sona erer ve program kazananı ve toplam teklifi görüntüler.
+- **Kazananın Seçimi:** Program, en yüksek teklife dayanarak kazananı belirler.
+
 ##  Tekniksel Açıklaması
 
 <br>
@@ -39,6 +49,13 @@
 - Açık artırma işlemi bittikten sonra, aşağıdaki sonuçların gösterilmesi:
     - Toplam teklif miktarı.
     - Eğer teklif varsa, en yüksek değere sahip olanın gösterilmesi.
+ 
+## Notlar
+
+- **Giriş Doğrulaması**: Program, sadece teklif girişlerinde negatif veya sıfır değerlerini kontrol eder.
+- **Girişlerin İşlenmesi**: Kullanıcı girişleri, sayısal değerler için `scanf` fonksiyonu kullanılarak alınır.
+- **Döngü**: Açık artırma süreci, kullanıcı sıfır değeri girene kadar sonsuz bir döngü içinde devam eder.
+
  
 ### Kodu
 
@@ -141,10 +158,3 @@ int main() {
 ![resim](https://github.com/dystaSatria/C-/blob/main/M%C3%BCzayede%20Program%C4%B1/Screenshot%202023-12-24%20at%2022.14.34.png)
 
 
-## Önemli Notlar
-
-- **Giriş Doğrulaması**: Program, sadece teklif girişlerinde negatif veya sıfır değerlerini kontrol eder.
-- **Girişlerin İşlenmesi**: Kullanıcı girişleri, sayısal değerler için `scanf` fonksiyonu kullanılarak alınır.
-- **Döngü**: Açık artırma süreci, kullanıcı sıfır değeri girene kadar sonsuz bir döngü içinde devam eder.
-
-Bu açıklama, açık artırma programınızın algoritmasını anlamak için detaylı bir rehber sunar ve gerektiğinde daha kapsamlı bir şekilde genişletilebilir.
