@@ -48,7 +48,7 @@ double FiyatHesapla(Muzayede *Urun) {
 }
 
 // Kazanan teklifin indeksini bulan fonksiyon
-int PemenangIndeks(Muzayede *Urun) {
+int KazananIndeks(Muzayede *Urun) {
     double maksimum = 0.0;
     int indeks = -1;
     for (int i = 0; i < Urun->TeklifSayisi; ++i) {
@@ -73,10 +73,10 @@ int main() {
     // Eğer herhangi bir teklif yapılmışsa
     if (FiyatHesapla(&Urun) != 0) {
         printf("Toplam ödemesi: %.2lf\nToplam Teklif Sayısı: %d\n", FiyatHesapla(&Urun), Urun.TeklifSayisi);
-        int pemenangIndex = PemenangIndeks(&Urun);
+        int kazananIndex = KazananIndeks(&Urun);
         // Eğer kazanan teklif varsa
-        if (pemenangIndex != -1) {
-            printf("Müzayedeyi kazanan: Teklif Numarası %d, Miktar: %.2lf\n", pemenangIndex + 1, Urun.BaslangicFiyati[pemenangIndex]);
+        if (kazananIndex != -1) {
+            printf("Müzayedeyi kazanan: Teklif Numarası %d, Miktar: %.2lf\n", kazananIndex + 1, Urun.BaslangicFiyati[kazananIndex]);
         } else {
             printf("Herhangi Bir Teklif Yapılmadı\n");
         }
