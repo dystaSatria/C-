@@ -136,6 +136,10 @@ int main() {
 
 ```
 
+### Console Ekran Görüntüsünü
+
+![resim](https://github.com/dystaSatria/C-/blob/main/M%C3%BCzayede%20Program%C4%B1/Screenshot%202023-12-24%20at%2022.14.34.png)
+
 
 ## Önemli Notlar
 
